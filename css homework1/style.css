@@ -1,0 +1,37 @@
+#area {
+  padding-top: 5%;
+}
+.text-center {
+  color: rgb(110, 60, 60);
+}
+#img-area {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
+}
+h3 {
+  color: rgb(110, 60, 60);
+  font-size: medium;
+  font-weight: bold;
+  Visage origami.jpeg
+}
+.col-6 :hover {
+  opacity: 0.4;
+}
+.text::before {
+  content: "Welcome";
+  position: absolute;
+  justify-content:center;
+  align-content:center;
+   top:20%;
+  left:10%;
+  opacity: 0.7;
+  font-weight: 200%;
+  font-size: 100px;
+  border-top: saddlebrown;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, serif;
+  font-style: unset;
+}
